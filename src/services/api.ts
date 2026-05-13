@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://localhost:7241/api",
+  baseURL: "https://cleanlife-api.onrender.com/api",
 });
 
 api.interceptors.request.use((config) => {
